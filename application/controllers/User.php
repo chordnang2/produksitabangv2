@@ -54,7 +54,7 @@ class User extends CI_Controller
                 redirect('dashboard');
             }
             if ($namaUser == 'mpp') {
-                redirect('mpp');
+                redirect('mpp/sanksiSpView');
             }
             // echo 'Login sukses!';
             // exit;
